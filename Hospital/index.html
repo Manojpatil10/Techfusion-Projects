@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mediplus</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Images/illustration/Dapino-Medical-Hospital.256.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style2.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="alertMessage" id="alertMessage">
+        <span
+          class="closeBtn"
+          onclick="this.parentElement.style.display='none';"
+          ><i class="bi bi-x-lg"></i
+        ></span>
+        <strong>Please fill the required details!</strong>
+        <br />
+        Click on the close button to dismiss it.
+      </div>
+      <div class="successMessage" id="successMessage">
+        <span
+          class="closeBtn"
+          onclick="this.parentElement.style.display='none';"
+          ><i class="bi bi-x-lg"></i
+        ></span>
+        <strong>Thank you for filling th form.</strong>
+        <br />
+        Click on the close button to dismiss it.
+      </div>
+
+      <nav class="nav-mobile">
+        <a href="#" class="logo-mobile">mediplus</a>
+        <div class="nav-items">
+          <a href="#"><i class="bi bi-list"></i></a>
+          <a href="">menu</a>
+        </div>
+      </nav>
+
+      <header>
+        <div class="nav-desktop">
+          <div class="blue-div">
+            <ul class="contact-items">
+              <div class="contact-email">
+                <li>
+                  <i class="bi bi-telephone-fill"></i>&nbsp;+ 1235 2355 98
+                </li>
+                <li><i class="bi bi-telegram"></i>&nbsp;youremail@email.com</li>
+              </div>
+              <div class="signUp-in">
+                <a href="#">sign up &nbsp;&nbsp;|</a>
+                <a href="#">&nbsp;sign in</a>
+              </div>
+            </ul>
+          </div>
+          <div class="white-div">
+            <div class="logo"><h3>mediplus</h3></div>
+            <div class="items">
+              <ul class="list-items">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">department</a></li>
+                <li><a href="#">doctors</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">appointment</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <section class="header">
+          <div class="header-div">
+            <h4>welcome to mediplus</h4>
+            <h1 class="heading">We are here <span>for your Care</span></h1>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove.
+            </p>
+            <a href="#">Make an appointment</a>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <section class="intro-section container">
+          <div class="doctor-img">
+            <img src="Images/illustration/about.jpg.webp" alt="Doctor" />
+          </div>
+          <div class="about">
+            <h2>
+              We Are <span class="mediplus">Mediplus</span> A Medical Clinic
+            </h2>
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth. It is a
+              paradisematic country, in which roasted parts of sentences fly
+              into your mouth.
+            </p>
+            <a href="#" class="btn blue-btn">Make an appointment</a>
+            <a href="#" class="btn red-btn">Contact us</a>
+          </div>
+        </section>
+
+        <section class="services-section container">
+          <div class="innerServices">
+            <div class="services">
+              <h2>our services</h2>
+              <div class="outer-hospital-services">
+                <div class="hospital-services">
+                  <div class="image-div">
+                    <img
+                      class="image"
+                      src="Images/illustration/ambulance.png"
+                      alt="Ambulance"
+                    />
+                  </div>
+
+                  <div class="image-txt">
+                    <span>emergency services</span>
+                    <p>
+                      A small river named Duden flows by their place and
+                      supplies it with the necessary regelialia.
+                    </p>
+                  </div>
+                </div>
+                <div class="hospital-services">
+                  <div class="image-div">
+                    <img
+                      class="image"
+                      src="Images/illustration/doctor.png"
+                      alt="Doctor"
+                    />
+                  </div>
+                  <div class="image-txt">
+                    <span>qualified doctors</span>
+                    <p>
+                      A small river named Duden flows by their place and
+                      supplies it with the necessary regelialia.
+                    </p>
+                  </div>
+                </div>
+                <div class="hospital-services">
+                  <div class="image-div">
+                    <img
+                      class="image"
+                      src="Images/illustration/stethoscope.png"
+                      alt="stethoscope"
+                    />
+                  </div>
+                  <div class="image-txt">
+                    <span>outdoor checkup</span>
+                    <p>
+                      A small river named Duden flows by their place and
+                      supplies it with the necessary regelialia.
+                    </p>
+                  </div>
+                </div>
+                <div class="hospital-services">
+                  <div class="image-div">
+                    <img
+                      class="image"
+                      src="Images/illustration/time.png"
+                      alt="24hours services"
+                    />
+                  </div>
+                  <div class="image-txt">
+                    <span>24hours services</span>
+                    <p>
+                      A small river named Duden flows by their place and
+                      supplies it with the necessary regelialia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="consultation">
+              <h3>free consultation</h3>
+              <div class="form-div">
+                <form class="form">
+                  <input
+                    type="text"
+                    placeholder="first name"
+                    class="form-input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="last name"
+                    class="form-input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="services"
+                    class="form-input"
+                  />
+                  <input type="text" placeholder="phone" class="form-input" />
+                  <input type="text" placeholder="date" class="form-input" />
+                  <input type="text" placeholder="time" class="form-input" />
+                  <input type="text" placeholder="message" class="form-input" />
+                  <input type="submit" value="Appointment" class="btn1" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="health-priority">
+          <div class="health-div">
+            <h2>Your Health is Our Priority</h2>
+            <p>
+              We can manage your dream building A small river named Duden flows
+              by their place
+            </p>
+            <a href="#">search placecs</a>
+          </div>
+        </section>
+
+        <section class="services-type">
+          <div class="specialist">
+            <img
+              class="img1 img2"
+              src="Images/illustration/stethoscope2.png"
+              alt="stethoscope"
+            />
+            <img
+              class="img1 img3"
+              src="Images/illustration/stethoscope3.png"
+              alt="stethoscope"
+            />
+            <h4>neurology</h4>
+            <p>Far far away, behind the word mountains</p>
+          </div>
+          <div class="specialist">
+            <img
+              class="img1 img2"
+              src="Images/illustration/stethoscope2.png"
+              alt="stethoscope"
+            />
+            <img
+              class="img1 img3"
+              src="Images/illustration/stethoscope3.png"
+              alt="stethoscope"
+            />
+            <h4>surgical</h4>
+            <p>Far far away, behind the word mountains</p>
+          </div>
+          <div class="specialist">
+            <img
+              class="img1 img2"
+              src="Images/illustration/stethoscope2.png"
+              alt="stethoscope"
+            />
+            <img
+              class="img1 img3"
+              src="Images/illustration/stethoscope3.png"
+              alt="stethoscope"
+            />
+            <h4>dental</h4>
+            <p>Far far away, behind the word mountains</p>
+          </div>
+          <div class="specialist">
+            <img
+              class="img1 img2"
+              src="Images/illustration/stethoscope2.png"
+              alt="stethoscope"
+            />
+            <img
+              class="img1 img3"
+              src="Images/illustration/stethoscope3.png"
+              alt="stethoscope"
+            />
+            <h4>opthalmology</h4>
+            <p>Far far away, behind the word mountains</p>
+          </div>
+          <div class="specialist">
+            <img
+              class="img1 img2"
+              src="Images/illustration/stethoscope2.png"
+              alt="stethoscope"
+            />
+            <img
+              class="img1 img3"
+              src="Images/illustration/stethoscope3.png"
+              alt="stethoscope"
+            />
+            <h4>cardiology</h4>
+            <p>Far far away, behind the word mountains</p>
+          </div>
+          <div class="specialist">
+            <img
+              class="img1 img2"
+              src="Images/illustration/stethoscope2.png"
+              alt="stethoscope"
+            />
+            <img
+              class="img1 img3"
+              src="Images/illustration/stethoscope3.png"
+              alt="stethoscope"
+            />
+            <h4>traumatology</h4>
+            <p>Far far away, behind the word mountains</p>
+          </div>
+          <div class="specialist">
+            <img
+              class="img1 img2"
+              src="Images/illustration/stethoscope2.png"
+              alt="stethoscope"
+            />
+            <img
+              class="img1 img3"
+              src="Images/illustration/stethoscope3.png"
+              alt="stethoscope"
+            />
+            <h4>nuclear magnetic</h4>
+            <p>Far far away, behind the word mountains</p>
+          </div>
+          <div class="specialist">
+            <img
+              class="img1 img2"
+              src="Images/illustration/stethoscope2.png"
+              alt="stethoscope"
+            />
+            <img
+              class="img1 img3"
+              src="Images/illustration/stethoscope3.png"
+              alt="stethoscope"
+            />
+            <h4>x-ray</h4>
+            <p>Far far away, behind the word mountains</p>
+          </div>
+          <div class="specialist">
+            <img
+              class="img1 img2"
+              src="Images/illustration/stethoscope2.png"
+              alt="stethoscope"
+            />
+            <img
+              class="img1 img3"
+              src="Images/illustration/stethoscope3.png"
+              alt="stethoscope"
+            />
+            <h4>cardiology</h4>
+            <p>Far far away, behind the word mountains</p>
+          </div>
+        </section>
+
+        <section class="doctors">
+          <div class="doctors-div">
+            <div class="doctors-intro">
+              <h2>our qualifies doctors</h2>
+              <p>
+                Separated they live in. A small river named Duden flows by their
+                place and supplies it with the necessary regelialia. It is a
+                paradisematic country
+              </p>
+            </div>
+            <div class="doctors-info">
+              <div class="surgents">
+                <figure>
+                  <div class="figure-inner">
+                    <div class="doctor-img-outer">
+                      <img
+                        class="doctors-img"
+                        src="Images/illustration/doc-1.jpg.webp"
+                        alt="Lloyd Wilson"
+                      />
+                    </div>
+                    <div class="surgents-social">
+                      <ul>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-facebook"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-google"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-instagram"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h4>dr. lloyd wilson</h4>
+                    <span>neurologist</span>
+                    <p>
+                      I am an ambitious workaholic, but apart from that, pretty
+                      simple person.
+                    </p>
+                    <a href="#" class="book-now">Book now</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="surgents">
+                <figure>
+                  <div class="figure-inner">
+                    <div class="doctor-img-outer">
+                      <img
+                        class="doctors-img"
+                        src="Images/illustration/doc-2.jpg.webp"
+                        alt="Lloyd Wilson"
+                      />
+                    </div>
+                    <div class="surgents-social">
+                      <ul>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-facebook"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-google"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-instagram"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h4>dr. rachel parker</h4>
+                    <span>ophthalmologist</span>
+                    <p>
+                      I am an ambitious workaholic, but apart from that, pretty
+                      simple person.
+                    </p>
+                    <a href="#" class="book-now">Book now</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="surgents">
+                <figure>
+                  <div class="figure-inner">
+                    <div class="doctor-img-outer">
+                      <img
+                        class="doctors-img"
+                        src="Images/illustration/doc-3.jpg.webp"
+                        alt="Lloyd Wilson"
+                      />
+                    </div>
+                    <div class="surgents-social">
+                      <ul>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-facebook"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-google"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-instagram"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h4>dr. ian smith</h4>
+                    <span>dentist</span>
+                    <p>
+                      I am an ambitious workaholic, but apart from that, pretty
+                      simple person.
+                    </p>
+                    <a href="#" class="book-now">Book now</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="surgents">
+                <figure>
+                  <div class="figure-inner">
+                    <div class="doctor-img-outer">
+                      <img
+                        class="doctors-img"
+                        src="Images/illustration/doc-4.jpg.webp"
+                        alt="Lloyd Wilson"
+                      />
+                    </div>
+                    <div class="surgents-social">
+                      <ul>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-facebook"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-google"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="social-icon">
+                            <i class="bi bi-instagram"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h4>dr. alicia henderson</h4>
+                    <span>pediatrician</span>
+                    <p>
+                      I am an ambitious workaholic, but apart from that, pretty
+                      simple person.
+                    </p>
+                    <a href="#" class="book-now">Book now</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="record">
+            <div class="content">
+              <span>fun fact</span>
+              <h3>Over 5,100 patients trust us</h3>
+              <a href="#">Make an appointment</a>
+            </div>
+            <div class="stats-div">
+              <div class="stats">
+                <h2>30</h2>
+                <h5>Years of Experience</h5>
+              </div>
+              <div class="stats">
+                <h2>4,500</h2>
+                <h5>Happy Patients</h5>
+              </div>
+              <div class="stats">
+                <h2>84</h2>
+                <h5>Numbers of Doctors</h5>
+              </div>
+              <div class="stats">
+                <h2>300</h2>
+                <h5>Numbers of Staffs</h5>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="updates">
+          <div class="updates-inner-div">
+            <div class="updates-here">
+              <h3>gets every single updates here</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia
+              </p>
+            </div>
+            <div class="events-div">
+              <div class="events">
+                <figure>
+                  <img
+                    src="Images/illustration/image_1.jpg.webp"
+                    alt="Doctors"
+                  />
+                  <figcaption>
+                    <div class="date">
+                      <a href="#">june 9, 2019</a>
+                      <a href="#">admin</a>
+                      <a href="#"
+                        ><sup><i class="bi bi-chat-left-text"></i></sup>3</a
+                      >
+                    </div>
+                    <h3>scary things that you don't get enough sleep</h3>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="events">
+                <figure>
+                  <img
+                    src="Images/illustration/image_2.jpg.webp"
+                    alt="Doctors"
+                  />
+                  <figcaption>
+                    <div class="date">
+                      <a href="#">june 9, 2019</a>
+                      <a href="#">admin</a>
+                      <a href="#"
+                        ><sup><i class="bi bi-chat-left-text"></i></sup>3</a
+                      >
+                    </div>
+                    <h3>scary things that you don't get enough sleep</h3>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="events">
+                <figure>
+                  <img
+                    src="Images/illustration/image_3.jpg.webp"
+                    alt="Doctors"
+                  />
+                  <figcaption>
+                    <div class="date">
+                      <a href="#">june 9, 2019</a>
+                      <a href="#">admin</a>
+                      <a href="#"
+                        ><sup><i class="bi bi-chat-left-text"></i></sup>3</a
+                      >
+                    </div>
+                    <h3>scary things that you don't get enough sleep</h3>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="events">
+                <figure>
+                  <img
+                    src="Images/illustration/image_4.jpg.webp"
+                    alt="Doctors"
+                  />
+                  <figcaption>
+                    <div class="date">
+                      <a href="#">june 9, 2019</a>
+                      <a href="#">admin</a>
+                      <a href="#"
+                        ><sup><i class="bi bi-chat-left-text"></i></sup>3</a
+                      >
+                    </div>
+                    <h3>scary things that you don't get enough sleep</h3>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="events">
+                <figure>
+                  <img
+                    src="Images/illustration/image_5.jpg.webp"
+                    alt="Doctors"
+                  />
+                  <figcaption>
+                    <div class="date">
+                      <a href="#">june 9, 2019</a>
+                      <a href="#">admin</a>
+                      <a href="#"
+                        ><sup><i class="bi bi-chat-left-text"></i></sup>3</a
+                      >
+                    </div>
+                    <h3>scary things that you don't get enough sleep</h3>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="events">
+                <figure>
+                  <img
+                    src="Images/illustration/image_6.jpg.webp"
+                    alt="Doctors"
+                  />
+                  <figcaption>
+                    <div class="date">
+                      <a href="#">june 9, 2019</a>
+                      <a href="#">admin</a>
+                      <a href="#"
+                        ><sup><i class="bi bi-chat-left-text"></i></sup>3</a
+                      >
+                    </div>
+                    <h3>scary things that you don't get enough sleep</h3>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts.
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="patient-says">
+          <div class="patient-div">
+            <h4>read testimonial</h4>
+            <h2>our patient says</h2>
+            <div class="patient-image">
+              <!-- <div>
+                 <img
+                src="Images/illustration/person_3.jpg.webp"
+                alt="Jeff Freshman"
+                />
+              </div> -->
+              <div class="double-qoutes-outer">
+                <div class="double-qoutes">"</div>
+              </div>
+            </div>
+            <p>
+              Far far away behind the word mountains, far from the countries
+              Vokalia and Consonantia there live the blind text.
+            </p>
+            <h3>jeff freshman</h3>
+            <h6>patients</h6>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <section class="contact container">
+          <div class="contact-us">
+            <div class="contact-intro">
+              <h2>contact us</h2>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia
+              </p>
+            </div>
+            <div class="contact-details-div">
+              <div class="contact-details">
+                <div class="icon">
+                  <img
+                    src="Images/illustration/address.png"
+                    alt="Address icon"
+                  />
+                </div>
+                <span>address</span>
+                <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+              </div>
+              <div class="contact-details">
+                <div class="icon">
+                  <img
+                    src="Images/illustration/phone-call.png"
+                    alt="phone icon"
+                  />
+                </div>
+                <span>contact number</span>
+                <a href="#">+ 1235 2355 98</a>
+              </div>
+              <div class="contact-details">
+                <div class="icon">
+                  <img
+                    src="Images/illustration/email (1).png"
+                    alt="email icon"
+                  />
+                </div>
+                <span>email</span>
+                <a href="#">info@yoursite.com</a>
+              </div>
+              <div class="contact-details">
+                <div class="icon">
+                  <img
+                    src="Images/illustration/globe-earth.png"
+                    alt="earth icon"
+                  />
+                </div>
+                <span>website</span>
+                <a href="#">yoursite.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-form-div">
+            <div class="enquiry-form">
+              <form
+                action=""
+                method=""
+                name="myForm"
+                id="form"
+                onsubmit="validateForm()"
+              >
+                <input
+                  type="text"
+                  placeholder="your name"
+                  class="input"
+                  name="username"
+                />
+                <input
+                  type="email"
+                  placeholder="your email"
+                  class="input"
+                  name="email"
+                />
+                <input
+                  type="text"
+                  placeholder="subject"
+                  class="input"
+                  name="subject"
+                />
+                <textarea
+                  name="textarea"
+                  id="#"
+                  cols="30"
+                  rows="7"
+                  placeholder="message"
+                  class="textarea"
+                ></textarea>
+                <!-- <input type="submit" value="send message" class="submit-btn" /> -->
+                <button type="submit" class="submit-btn" name="submitButton">
+                  Send message
+                </button>
+              </form>
+            </div>
+            <div class="google-map">
+              <img
+                src="Images/illustration/icon_error (1).png"
+                alt="error icon"
+              />
+              <h5>Oops! Something went wrong.</h5>
+              <h6>
+                This page didn't load Google Maps correctly. See the JavaScript
+                console for technical details.
+              </h6>
+            </div>
+          </div>
+        </section>
+
+        <section class="various-links">
+          <div class="inner">
+            <div class="inner-inner">
+              <div class="inner1">
+                <h2>mediplus</h2>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries.
+                </p>
+                <div class="icons">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="dep">
+                <h2>departments</h2>
+                <div class="links">
+                  <a href="#"><i class="bi bi-arrow-right"></i>neurology</a>
+                  <a href="#"><i class="bi bi-arrow-right"></i>opthalmology</a>
+                  <a href="#"
+                    ><i class="bi bi-arrow-right"></i>neuclear magnetic</a
+                  >
+                  <a href="#"><i class="bi bi-arrow-right"></i>surgical</a>
+                  <a href="#"><i class="bi bi-arrow-right"></i>cardiology</a>
+                  <a href="#"><i class="bi bi-arrow-right"></i>dental</a>
+                </div>
+              </div>
+              <div class="dep">
+                <h2>links</h2>
+                <div class="links">
+                  <a href="#"><i class="bi bi-arrow-right"></i>home</a>
+                  <a href="#"><i class="bi bi-arrow-right"></i>about</a>
+                  <a href="#"><i class="bi bi-arrow-right"></i>departments</a>
+                  <a href="#"><i class="bi bi-arrow-right"></i>doctors</a>
+                  <a href="#"><i class="bi bi-arrow-right"></i>blog</a>
+                  <a href="#"><i class="bi bi-arrow-right"></i>pricing</a>
+                  <a href="#"><i class="bi bi-arrow-right"></i>contact</a>
+                </div>
+              </div>
+              <div class="dep">
+                <h2>services</h2>
+                <div class="links">
+                  <a href="#"
+                    ><i class="bi bi-arrow-right"></i>emergency services</a
+                  >
+                  <a href="#"
+                    ><i class="bi bi-arrow-right"></i>qualified doctors</a
+                  >
+                  <a href="#"
+                    ><i class="bi bi-arrow-right"></i>outdoor checkup</a
+                  >
+                  <a href="#"
+                    ><i class="bi bi-arrow-right"></i>24 hours services</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="question">
+              <h2>have a question?</h2>
+              <div class="address">
+                <ul>
+                  <li class="list">
+                    <span class="icon1"
+                      ><i class="bi bi-geo-alt-fill"></i
+                    ></span>
+                    <span class="content1"
+                      >203 Fake St. Mountain View, San Francisco, California,
+                      USA</span
+                    >
+                  </li>
+                  <li class="list list1">
+                    <span class="icon1"
+                      ><i class="bi bi-telephone-fill"></i
+                    ></span>
+                    <span class="content1">+2 392 3929 210</span>
+                  </li>
+                  <li class="list list1">
+                    <span class="icon1"
+                      ><i class="bi bi-envelope-fill"></i
+                    ></span>
+                    <span class="content1">info@yourdomain.com</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="copywrite">
+            <div class="para">
+              <p>
+                Copyright &copy;2024 All rights reserved | This template is made
+                with <i class="bi bi-suit-heart-fill"></i> by
+                <span>Colorlib</span>
+              </p>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </section>
+
+    <script src="Javascript/script.js"></script>
+  </body>
+</html>
