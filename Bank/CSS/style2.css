@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 320px) {
+  .nav-desktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .nav-desktop {
+    display: none;
+  }
+  /* .header{
+    height: 600px !important;
+  } */
+  .content-div1 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-one {
+    width: 90%;
+    padding-top: 70px;
+    padding-bottom: 0 ;
+    display: flex;
+    justify-content: space-between;
+  }
+  .money-saving {
+    width: 33% ;
+    text-align: center;
+    padding: 0 12px;
+    margin-bottom: 25px;
+  }
+  .section-two {
+    width: 90% ;
+    padding: 70px 0 ;
+  }
+  .section-three {
+    padding: 70px 0 ;
+    width: 90%;
+  }
+  .about-us-div {
+    width: 65%;
+    margin: 0 auto;
+  }
+  .section-four {
+    padding: 70px 0 ;
+    width: 90% ;
+  }
+  .members-intro {
+    width: 52% ;
+    margin: 0 auto;
+  }
+  .figures-div {
+    /* max-width: 720px; */
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .team-photos {
+    width: 49%;
+    /* height: auto; */
+    /* padding: 0 15px !important; */
+    margin-bottom: 24px ;
+  }
+  .d1 {
+    width: 100% ;
+    height: 330px ;
+    background-size: cover;
+    overflow: hidden ;
+    /* background-size: 100% 100%; */
+  }
+  .gallery {
+    padding: 70px 0 ;
+  }
+  .gallery h2 {
+    margin-bottom: 16px ;
+  }
+  .buttons {
+    width: 39% ;
+    /* height: 94px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 48px ;
+  }
+  .images-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .images {
+    width: 31% ;
+    margin-bottom: 24px ;
+  }
+  .working {
+    padding: 60px 0 ;
+    width: 90% ;
+    margin: 0 auto;
+  }
+  .working-div {
+    /* display: block; */
+    width: 52%;
+    margin: 0 auto;
+    margin-bottom: 64px ;
+  }
+  .images1 {
+    width: 100% ;
+  }
+  .services {
+    padding: 50px 0 ;
+    width: 90% !;
+    margin: 0 auto;
+  }
+  .services-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .services-figures {
+    width: 48% ;
+    margin-bottom: 24px;
+  }
+  .customer {
+    width: 90% ;
+    margin: 0 auto;
+    padding: 60px 0 ;
+  }
+  .innerSection3 {
+    padding: 70px 0 ;
+  }
+  .innerSection3 h2 {
+    margin-bottom: 48px;
+  }
+  .innerOne {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+    /* text-align: left; */
+  }
+  .pricing,
+  .premium,
+  .professional {
+    width: 46% ;
+  }
+  .heading3 {
+    padding: 40px 0 ;
+  }
+  .question-answers {
+    width: 90% ;
+    margin: 0 auto;
+  }
+  .answer {
+    margin-bottom: 48px ;
+  }
+  .innerSection4 {
+    padding-bottom: 0 ;
+  }
+  .banking {
+    width: 90% ;
+    margin: 0 auto;
+    padding: 70px 0 ;
+  }
+  .our-blog {
+    padding: 70px 0 ;
+  }
+  .our-blog-div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .figure1 {
+    width: 47% ;
+  }
+  .contact-us {
+    width: 100% ;
+    margin: 0 auto;
+    padding: 70px 0 ;
+  }
+  .address {
+    width: 90% ;
+    display: flex;
+    justify-content: space-between;
+  }
+  .location,
+  .phone-number,
+  .email-address {
+    width: 31%;
+    /* background-color: yellow; */
+  }
+  .contact-form {
+    width: 90% ;
+  }
+  .input-name {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-name,
+  .last-name {
+    width: 48%;
+  }
+  .about-div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .div1{
+    width: 30%;
+    padding: 0 10px;
+  }
+  .div2,.div3{
+    width: 19%;
+    padding: 0 10px;
+  }
+  .div4{
+    width: 32%;
+    padding: 0 10px;
+  }
+  .send-mail{
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-desktop {
+    display: none;
+  }
+  .content-div1 {
+    width: 81% ;
+  }
+  .content-div1 h1 {
+    font-size: 4rem ;
+  }
+  .content-div1 p {
+    font-size: 1.4rem ;
+  }
+  .section-one {
+    width: 95% ;
+  }
+  .section-two {
+    width: 95% ;
+    padding: 0 ;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 128px ;
+  }
+  .section2-div1 {
+    width: 51%;
+  }
+  .section2-div1 img {
+    padding-bottom: 16px ;
+  }
+  .section2-div2 {
+    width: 42%;
+  }
+  .section-three {
+    width: 95% ;
+    padding: 128px 0 ;
+  }
+  .heading {
+    font-size: 40px ;
+    font-weight: 700 ;
+  }
+  .figure-outer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .figure {
+    width: 51%;
+  }
+  .figure-caption {
+    width: 42%;
+  }
+  .section-four {
+    width: 95% ;
+  }
+  .members-intro {
+    width: 68% ;
+  }
+  .figures-div {
+    width: 100% ;
+  }
+  .team-photos {
+    width: 23% ;
+  }
+  .d1 {
+    height: 210px ;
+  }
+  .social a i {
+    font-size: 0.7rem ;
+  }
+  .figure-caption {
+    text-align: left ;
+  }
+  .services-figures {
+    width: 32% ;
+  }
+  .heading2 {
+    margin-bottom: 48px ;
+  }
+  .customer blockquote {
+    width: 84%;
+    margin: 0 auto;
+  }
+  .customer p {
+    font-size: 1.5rem ;
+  }
+  .innerOne {
+    width: 95% ;
+  }
+  .pricing,
+  .premium,
+  .professional {
+    width: 30% ;
+  }
+  .content-div {
+    text-align: left;
+  }
+  .working {
+    width: 95% ;
+  }
+  .question-answers {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .que {
+    width: 48%;
+  }
+  .banking {
+    width: 95% ;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero1-img {
+    width: 48% ;
+  }
+  .outer-outer {
+    width: 40%;
+  }
+  .our-blog-div {
+    width: 95% ;
+  }
+  .figure1 {
+    width: 31% ;
+  }
+  .address {
+    width: 95% ;
+  }
+}
+
+@media (min-width: 1199px) {
+  .nav-mobile {
+    display: none ;
+  }
+  .nav-desktop {
+    display: flex ;
+  }
+}
